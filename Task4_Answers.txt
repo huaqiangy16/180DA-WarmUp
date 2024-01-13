@@ -1,0 +1,8 @@
+Task 4 answers
+1.HSV is typically better than RGB. The threshold range that I need to track the object is 10H. For instance, I used the color yellow with the HSV [30, 255, 255] so I used [20, 100, 100] and [30, 255, 255] as my lower and upper bound.
+
+2.Yes, there is a major difference in the tracking ability of my object. For instance, it was very diffcult to track the object when the light is off compared to when the light is on.
+
+3.Changing brightness help with how my code is able to track the color. For instance, it is hard to track the color in my phone when the brightness is low. It is easy to track when the brightness is medium. Although it can also track the color when the brightness is high, it requires sometimes for the camera to ajust its lighting around.
+ 
+4.My phone is more robust to brightness as it mainatiness its brightness while the surrounding brightness changes.
