@@ -1,0 +1,7 @@
+a) I can use my given speech program to detect words from the user and compare it to the result from the program.
+
+b) The complexity of my speech recognition would be simply recognize the words speak from the user and return the result as quickly as possible.
+
+c) I need it quickly enough so that it doesn't make a delay more than 5 seconds; however, a missed recognition will not hurt the progress of the game as it will provide another chance for the user to speak again.
+
+d) I am considering using a mic to reduce the noise in the surrounding so that it provides an imporvement in the accuracy of the speech recoginition.
