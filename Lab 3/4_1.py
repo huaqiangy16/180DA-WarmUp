@@ -4,9 +4,9 @@ import pygame
 import random
 
 from pygame.locals import (
-    K_1,
-    K_2,
-    K_3,
+    K_r,
+    K_p,
+    K_s ,
     K_ESCAPE,
     KEYDOWN,
     QUIT,
@@ -54,9 +54,9 @@ if __name__ == "__main__":
     Inst, InstR = text(32, "Instructions:", 170,120)
     Inst1,InstR1 = text(32, "Click on the image or", 250, 160)
     Inst2,InstR2 = text(32, "Enter the number", 220, 200)
-    N1, N1R =  text(32, "1", r_w+40, r_h+120)
-    N2, N2R =  text(32, "2", p_w+40, p_h+120)
-    N3, N3R = text(32, "3", s_w+40, s_h+120)
+    N1, N1R =  text(32, "r", r_w+40, r_h+120)
+    N2, N2R =  text(32, "p", p_w+40, p_h+120)
+    N3, N3R = text(32, "s", s_w+40, s_h+120)
     r, p, s= "Rock","Paper","Scissors"
     Operations = [r, p, s]
 
@@ -84,13 +84,13 @@ if __name__ == "__main__":
                 if event.type == KEYDOWN:
                     if(event.key == K_ESCAPE):
                         running = False
-                    elif(event.key == K_1):
+                    elif(event.key == K_r):
                         User_O = r
                         selecting = False
-                    elif event.key == K_2:
+                    elif event.key == K_p:
                         User_O = p
                         selecting = False
-                    elif event.key == K_3:
+                    elif event.key == K_s:
                         User_O = s
                         selecting = False
                 elif event.type == QUIT:
